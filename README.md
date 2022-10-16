@@ -1,0 +1,2 @@
+# latihan
+mongo connection
