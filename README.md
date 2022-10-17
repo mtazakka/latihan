@@ -1,2 +1,3 @@
 # latihan
 mongo connection
+psgql
