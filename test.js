@@ -19,5 +19,5 @@ var twoSum = function (nums, target) {
 };
 
 console.log(twoSum(nums, target))
-
+ok
 console.log(1)
