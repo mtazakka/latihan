@@ -9,7 +9,6 @@ module.exports = function (db) {
     try {
       const { rows } = await db.query("Select * from todos")
       res.status(200).json(rows)
-
     } catch (e) {
       throw e
     }

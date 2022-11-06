@@ -24,17 +24,16 @@ console.log(arrangeLetter("HALO INDONESIA"))
 
 const evenOdd = (input1, input2, input3, input4) => {
     let number = [input1, input2, input3, input4];
-    number = number.reverse()
+    // number = number.reverse()
 
-    let result = []
-    for (let i = 0; i < number.length; i++) {
-        if (i % 2 == 0) {
-            result.push("genap")
+    // let result = []
+    let result = number.map(element => {
+        if (element % 2 == 0) {
+            return "genap"
         } else {
-            result.push("ganjil")
+            return "ganjil"
         }
-    }
-    result = result.reverse();
+    })
     return result.join()
 }
 console.log(evenOdd(2, 3, 4, 5))
