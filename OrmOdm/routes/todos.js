@@ -17,8 +17,8 @@ router.get('/', async function (req, res, next) {
 
 router.post('/', async function (req, res, next) {
   try {
-    const { title } = req.body
-    const data = await models.Todo.create({ title })
+    const { title, UserId } = req.body
+    const data = await models.Todo.create({ title, UserId })
     res.json(new Response(data))
   } catch (e) {
     res.status(500).json(
