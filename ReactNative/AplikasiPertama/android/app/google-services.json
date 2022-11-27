@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "759186998125",
+    "project_id": "aplikas-pertama",
+    "storage_bucket": "aplikas-pertama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759186998125:android:584c34d7cd28190db89064",
+        "android_client_info": {
+          "package_name": "com.aplikasipertama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759186998125-bh876l3stdcati3c14k5hip40ho63k97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvp7w_yWvuzSxreW-PJqkNTtpIIY_dUWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759186998125-bh876l3stdcati3c14k5hip40ho63k97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
